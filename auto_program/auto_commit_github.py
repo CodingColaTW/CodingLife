@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 # 設置 Git repository 的路徑
-repo_path = '/path/to/your/repo'
+repo_path = r'C:\Users\spark\Desktop\CodingLife\auto_program'
 
 def commit_changes():
     repo = git.Repo(repo_path)
